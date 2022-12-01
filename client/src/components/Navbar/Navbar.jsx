@@ -66,7 +66,7 @@ const Navbar = () => {
 						<SearchIcon />
 						<PersonOutLineQutLinedIcon />
 						<FavoriteBorderIcon />
-						<div className="carticon">
+						<div className="cartIcon">
 							<ShoppingCartOutlinedIcon />
 							<span>0</span>
 						</div>
