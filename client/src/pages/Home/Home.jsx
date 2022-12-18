@@ -1,4 +1,5 @@
 import React from "react";
+import Categories from "../../components/Categories/Categories.jsx";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts.jsx";
 import Slider from "../../components/Slider/Slider.jsx";
 import "./Home.scss";
@@ -8,6 +9,7 @@ const Home = () => {
 		<div className="home">
 			<Slider />
 			<FeaturedProducts type="Featured" />
+			<Categories />
 			<FeaturedProducts type="Trending" />
 		</div>
 	);
