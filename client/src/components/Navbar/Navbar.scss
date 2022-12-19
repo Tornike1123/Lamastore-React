@@ -1,5 +1,10 @@
 .navbar {
 	height: 80px;
+	position: sticky;
+	top: 0;
+	height: 100%;
+	z-index: 999;
+	background-color: white;
 
 	.wrapper {
 		padding: 10px 30px;
